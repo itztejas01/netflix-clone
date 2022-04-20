@@ -45,7 +45,7 @@ function Row ({title,movies}:Props){
                     </div>
                 <ChevronRightIcon className={`absolute top-0 bottom-0 right-2 z-40
                  m-auto w-9 h-9 cursor-pointer opacity-0 transition hover:scale-125 group-hover:opacity-100`} 
-                onClick={()=>handleClick("right")} />
+                 onClick={()=>handleClick("right")} />
             </div>
         </div>
     )
